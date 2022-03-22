@@ -74,7 +74,7 @@ p{
     color: black;
     position: fixed;
     margin-top: 300px;
-    margin-left: 360px;
+    margin-left: 350px;
 
 }
 
@@ -86,9 +86,9 @@ footer{
     display: inline-block;
     font-size: 50px;
     height: 50px;
-    width: 575px;
+    width: 1250px;
     border: 5px solid red;
     background-color: white;
-    margin-left: 300px;
+    margin-left: 00px;
     margin-top: 1500px;
 }
