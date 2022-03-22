@@ -3,29 +3,33 @@
     padding: 0;
 }
 header{
-    font-size: 50px;
+    font-size: 50px;;
 }
 
 nav{
-    height: 150px;
+    height: 130px;
     width: 100%;
-    background-color: white;
+    background-color: red;
     border-bottom: 10px solid black;
+    position: fixed;
+    
 
 
 }
 
 nav ul{
+
     list-style-type: none;
-    text-align: center;
-    float: right;
+   float: right;
     text-shadow: 2px 2px white;
+
     
 
 
 }
 li{ 
     margin: 10px 10px;
+    
     
 }
 
@@ -38,83 +42,55 @@ nav ul li{
 nav ul li a{
     color: black;
     font-size: 50px;
-    /* text-decoration: none; */
+    text-decoration: none;
     text-transform: uppercase;
 
 
 }
 
 nav ul li a:hover{
-    color: red;
+    color: white;
 }
 
-p{ 
-     
-    
-}
+
 
 .logo img{
     width: 300px;
     height: 100px;
-    margin: 25px 35px;
+    margin: 15px 35px;
     float: left;
-}
-
-.border {
-    color: black;
-    /* border-radius: 20px; */
-    border: 20px solid black;
-
-}
-
-aside{
-    width: 35%;
-    height: 700px;
-    background-color: blueviolet;
-    float: right;
-    text-align: center;
-}
-
-section, article{ 
-    background-color: blue;
-    height: 300px;
-    width: 10%;
-    float: left;
-}
-
-footer{
-    clear: both;
-    font-size: 50px;
-}
-
-.box{
-    margin: 50px;
-    height: 100px;
-    width: 125px;
-    border: 5px solid black;
-    background-color: aliceblue;
-    border-radius: 5px;
-    color: blue;
-    box-shadow: 5px 5px red;
 }
 
 body{
-    background-image: url("img/9thStTerminal.jpg");
+    background-image: url("/w4bproject/img/skatingrink.jpg");
     background-repeat: no-repeat;
-    background-size: 1300px 2000px;
+    background-size: 1300px 1500px;
+}
+p{
+
+    font-size: 40px;
+    background-color: white;
+    margin: 20px;
+    color: black;
+    width: 600px;
+    height: 250px;
+    border: 5px solid black;
+    margin-top: 220px;
+    margin-left: 350px;
 }
 
-.sticky{
-    text-decoration: aliceblue;
-    height: 100px;
-    width: 100px;
-    border: 2px solid;
-    margin-left: 50px;
-    margin-top: 50px;
-    background-color: blue;
+footer{
+    font-size: 50px;
+}
+
+.bottom{
+    display: inline-block;
+    font-size: 50px;
+    height: 50px;
+    width: 575px;
+    border: 5px solid red;
+    background-color: white;
+    margin-left: 365px;
+    /* margin-top: 100px; */
     position: fixed;
-    /* position: sticky; */
-    top: 10px;
-    /* z-index: 1; */
-    
 }
