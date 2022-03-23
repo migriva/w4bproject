@@ -64,7 +64,7 @@ nav ul li a:hover{
 body{
     background-image: url("/w4bproject/img/skatingrink.jpg");
     background-repeat: no-repeat;
-    background-size: 1300px 1500px;
+    background-size: 100% 1500px;
 }
 p{
 
@@ -81,6 +81,8 @@ p{
 
 footer{
     font-size: 50px;
+    float: left;
+    bottom: 0;
 }
 
 .bottom{

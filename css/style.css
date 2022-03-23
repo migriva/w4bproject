@@ -64,7 +64,7 @@ nav ul li a:hover{
 body{
     background-image: url("/w4bproject/img/9thStTerminal.jpg");
     background-repeat: no-repeat;
-    background-size: 1300px 1500px;
+    background-size: 100% 1500px;
 }
 
 p{
@@ -78,17 +78,31 @@ p{
 
 }
 
-footer{
-    font-size: 50px;
-}
-
-.bottom{
+ footer{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 10px;
     display: inline-block;
-    font-size: 50px;
-    height: 50px;
-    width: 1250px;
-    border: 5px solid red;
+    bottom: 0;
+    position: float;
+    height: 0px;
+    width: 1233px;
     background-color: white;
     margin-left: 00px;
     margin-top: 1500px;
-}
+    
+} 
+
+
+
+    .column2{
+
+        width: 33.33%;
+        padding: 3%;
+        bottom: 0;
+        float: left;
+        box-sizing: border-box;
+        border-left: 5px solid #fff;
+        border-right: 5px solid #fff;
+      }
+
