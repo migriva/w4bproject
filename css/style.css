@@ -3,7 +3,7 @@
     padding: 0;
 }
 header{
-    font-size: 50px;;
+    font-size: 50px;
 }
 
 nav{
@@ -12,10 +12,7 @@ nav{
     background-color: red;
     border-bottom: 10px solid black;
     position: fixed;
-    
-
-
-}
+    }
 
 nav ul{
 
@@ -23,14 +20,10 @@ nav ul{
    float: right;
     text-shadow: 2px 2px white;
 
-    
-
-
 }
 li{ 
     margin: 10px 10px;
-    
-    
+        
 }
 
 nav ul li{
@@ -79,30 +72,24 @@ p{
 }
 
  footer{
-    list-style-type: none;
+    position: absolute;
     font-size: 20px;
     padding: 10px 10px;
     display: inline-block;
-    bottom: 0;
-    position: float;
-    height: 0px;
-    width: 1233px;
-    background-color: white;
+    height: 200px;
+    width: 100%;
+    background-color: red;
     margin-left: 00px;
-    margin-top: 1500px;
-    
+    margin-top: 1000px;
 } 
 
 
 
     .column2{
-
+        height: 200px;
         width: 33.33%;
         padding: 3%;
-        bottom: 0;
         float: left;
-        box-sizing: border-box;
-        border-left: 5px solid #fff;
-        border-right: 5px solid #fff;
+       
       }
 
