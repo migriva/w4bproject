@@ -56,8 +56,8 @@ nav ul li a:hover{
 
 body{
     background-image: url("/w4bproject/img/9thStTerminal.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 1500px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 }
 
 p{
@@ -72,7 +72,7 @@ p{
 }
 
  footer{
-    position: absolute;
+    position: float;
     font-size: 20px;
     padding: 10px 10px;
     display: inline-block;

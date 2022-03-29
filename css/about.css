@@ -62,8 +62,7 @@ nav ul li a:hover{
 
 body{
     background-image: url("/w4bproject/img/skatingrink.jpg");
-    background-repeat: no-repeat;
-    background-size: 2500px 1490px;
+    background-size: cover;
 }
 p{
     top: 50%;
@@ -118,6 +117,16 @@ footer{
        bottom: 0;
        float: left;
     
+     }
+
+     .insta{
+         position: sticky;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         height: 200px;
+         width: 200px;
+         color: white;
      }
 
   

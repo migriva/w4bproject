@@ -8,12 +8,14 @@ header{
 }
 
 nav{
+
     height: 130px;
     width: 100%;
     background-color: red;
     border-bottom: 10px solid black;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
     
 
@@ -66,8 +68,7 @@ nav ul li a:hover{
 
 body{
     background-image: url("/w4bproject/img/skatestructure.jpg");
-    background-repeat: no-repeat;
-    background-size: 2500px 1560px;
+    background-size: cover;
 }
 p{
     font-size: 30px;
@@ -107,8 +108,16 @@ footer{
      }
 
     .googlemap{
+        position: absolute;
+        top: 30%;
         margin-top: 10px;
         padding: 10px;
         float: right;
+        left: 60%;
     }
 
+footer{
+    color: rebeccapurple;
+    position: relative;
+    
+}
