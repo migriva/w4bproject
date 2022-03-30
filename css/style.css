@@ -66,14 +66,34 @@ p{
     background-color: white;
     color: black;
     position: fixed;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-left: 350px;
 
 }
 
+
+.hero-image{
+   
+    height: 5px;
+    width: 5px;
+}
+
+
+
+.column2{
+    height: 200px;
+    width: 33.33%;
+    padding: 3%;
+    float: left;
+       
+      }
+      
+
  footer{
+    font-size: 30px;
     position: float;
-    font-size: 20px;
+    color: white;
+    text-decoration: none;
     padding: 10px 10px;
     display: inline-block;
     height: 200px;
@@ -82,14 +102,8 @@ p{
     margin-left: 00px;
     margin-top: 1000px;
 } 
+.footer-link{
+    color: white;
+}
 
-
-
-    .column2{
-        height: 200px;
-        width: 33.33%;
-        padding: 3%;
-        float: left;
-       
-      }
 

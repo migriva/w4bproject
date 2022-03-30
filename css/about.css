@@ -90,22 +90,7 @@ p{
     margin-left: 30%;
 }
 
-footer{
 
-    position: absolute;
-    font-size: 20px;
-    padding: 10px 10px;
-    display: inline-block;
-    /* position: float; */
-    height: 200px;
-    width: 100%;
-    /* width: 100%; */
-    /* border: 5px solid red; */
-    background-color: red;
-    margin-left: 00px;
-    margin-top: 900px;
-   
-} 
 
 
 
@@ -113,7 +98,7 @@ footer{
        
        height: 200px;
        width: 33.33%;
-       padding: 3%;
+       /* padding: 3%; */
        bottom: 0;
        float: left;
     
@@ -128,6 +113,29 @@ footer{
          width: 200px;
          color: white;
      }
+     .youtube{
+        position: float;
+        padding: 100px;
+    
+        
+         
+     }
+     footer{
+        color: white;
+        position: absolute;
+        font-size: 40px;
+        padding: 10px 10px;
+        display: inline-block;
+        height: 200px;
+        width: 100%;
+        background-color: red;
+        margin-left: 00px;
+        margin-top: 900px;
+       
+    } 
+    .footer-link{ 
+        color: white;
+    }
 
   
 
