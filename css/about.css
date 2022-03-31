@@ -96,23 +96,15 @@ p{
 
    .column2{
        
-       height: 200px;
+       height: 100px;
        width: 33.33%;
-       /* padding: 3%; */
-       bottom: 0;
+     padding: 20px;
+       /* bottom: 10px; */
        float: left;
     
      }
 
-     .insta{
-         position: sticky;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50%, -50%);
-         height: 200px;
-         width: 200px;
-         color: white;
-     }
+    
      .youtube{
         position: float;
         padding: 100px;
@@ -122,20 +114,34 @@ p{
      }
      footer{
         color: white;
-        position: absolute;
+        position: float;
         font-size: 40px;
         padding: 10px 10px;
         display: inline-block;
         height: 200px;
         width: 100%;
         background-color: red;
-        margin-left: 00px;
+       
         margin-top: 900px;
        
     } 
-    .footer-link{ 
+    .footer-link{
         color: white;
+        
     }
+    .fa {
+        color: white;
+        padding: 10px;
+        position: absolute;
+        left: 90%;
+        top: 380%;
 
-  
+        }
+
+      .fa-instagram {
+        background: white;
+        color: black;
+        height: 50px;
+        width: 50px;
+      }      
 

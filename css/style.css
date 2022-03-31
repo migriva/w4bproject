@@ -105,5 +105,22 @@ p{
 .footer-link{
     color: white;
 }
+.fa {
+    padding: 10px;
+    height: 40px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    position: absolute;
+    left: 90%;
+    top: 195%;
+  }
+  .fa-instagram {
+    background: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+  }      
 
 

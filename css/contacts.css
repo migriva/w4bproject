@@ -91,6 +91,7 @@ p{
        padding: 3%;
        bottom: 0;
        float: left;
+       color: white;
     
      }
 
@@ -121,17 +122,36 @@ p{
 footer{
     color: white;
     position: absolute;
-    font-size: 30px;
-    padding: 10px 10px;
+    font-size: 40px;
+    padding-bottom: 45px;
     display: inline-block;
     height: 200px;
     width: 100%;
     background-color: red;
-    margin-left: 00px;
-    margin-top: 1000px;
+   
+    margin-top: 800px;
    
 } 
 
 .footer-link{
     color: white;
 }
+
+
+.fa {
+    padding: 10px;
+    /* height: 200px;
+    width: 200px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    position: absolute;
+    left: 90%;
+    top: 35%;
+  }
+  .fa-instagram {
+    background: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+  }      
