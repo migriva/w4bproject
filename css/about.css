@@ -130,11 +130,14 @@ p{
         
     }
     .fa {
-        color: white;
         padding: 10px;
         position: absolute;
+        text-align: center;
+        text-decoration: none;
         left: 90%;
         top: 380%;
+        border: 10px solid black;
+        border-radius: 25px;
 
         }
 

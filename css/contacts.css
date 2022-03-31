@@ -148,6 +148,8 @@ footer{
     position: absolute;
     left: 90%;
     top: 35%;
+    border: 10px solid black;
+    border-radius: 25px;
   }
   .fa-instagram {
     background: white;
